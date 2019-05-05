@@ -88,10 +88,6 @@
       <Project>{2b4a2c57-dffa-444a-8552-56ce554b7ecd}</Project>
       <Name>CleanCode.Demo.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\src\CleanCode.Demo.WebAPI\CleanCode.Demo.WebAPI.csproj">
-      <Project>{adab8bd8-5538-4ef7-89c7-a4d1173b2a3c}</Project>
-      <Name>CleanCode.Demo.WebAPI</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Integration\Api\" />

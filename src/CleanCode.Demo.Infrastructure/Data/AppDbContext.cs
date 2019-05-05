@@ -9,7 +9,7 @@ namespace CleanCode.Demo.Infrastructure.Data
     public class AppDbContext : DbContext
     {
         private IDomainEventDispatcher _dispatcher;
-
+        
         public AppDbContext(IDomainEventDispatcher dispatcher)
         {
             _dispatcher = dispatcher;

@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using CleanCode.Demo.WebAPI.App_Start;
 using System.Web.Http;
+using WebApi.StructureMap;
 
 namespace CleanCode.Demo.WebAPI
 {
@@ -10,6 +9,8 @@ namespace CleanCode.Demo.WebAPI
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
+            GlobalConfiguration.Configuration.UseStructureMap<DefaultRegistry>();
+
 
             // Web API routes
             config.MapHttpAttributeRoutes();

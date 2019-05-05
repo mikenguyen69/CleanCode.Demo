@@ -8,9 +8,9 @@ namespace CleanCode.Demo.Infrastructure.Data
 {
     public class EfRepository<T> : IRepository<T> where T : BaseEntity
     {
-        private AppDbContext _dbContext;
+        private DbContext _dbContext;
 
-        public EfRepository(AppDbContext dbContext)
+        public EfRepository(DbContext dbContext)
         {
             _dbContext = dbContext;
         }
