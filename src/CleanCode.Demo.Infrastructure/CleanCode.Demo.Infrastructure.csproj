@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Data\AppDbContext.cs" />
     <Compile Include="Data\EfRepository.cs" />
+    <Compile Include="Data\IAppDbContext.cs" />
     <Compile Include="DomainEvents\DomainEventDispatcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
